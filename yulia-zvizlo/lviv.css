@@ -1,0 +1,121 @@
+.header-lviv{ 
+background: #2b1d14;
+color:#f4e8d8;
+padding: 15px 35px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+border-bottom:3px solid #c89d55;
+}
+
+
+.header-lviv .logo{
+	font-size:22px;
+	font-weight:bold;
+	color: #f3c68f;
+	font-family: Georgia, serif;
+}
+
+
+.header-lviv nav a {
+color:#f4e8d8;
+text-decoration:none;
+margin-left:25px;
+font-size:16px;
+transition:0.2s;
+}
+
+.header-lviv nav a:hover{
+color:#f3c68f;
+text-decoration: underline;	
+}
+
+body {
+  background-color: #f5f0eb; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #3e2723;
+}
+
+.header-lviv {
+  background-color: #3e2723; 
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d7ccc8;
+}
+
+nav a {
+  color: #f5f0eb;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+nav a.active {
+  background-color: #8d6e63; 
+  color: white;
+  border-radius: 4px;
+}
+
+main {
+  width: 80%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #3e2723;
+}
+
+.intro {
+  text-align: center;
+  color: #6d4c41;
+}
+
+.card {
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #d7ccc8; 
+}
+
+.card h2 {
+  color: #5d4037;
+  margin-top: 0;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card li {
+  margin-bottom: 8px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #d7ccc8;
+  color: #3e2723;
+}
+
+.cards-container {
+  display: flex;             
+  gap: 20px;                 
+  justify-content: space-between; 
+  align-items: stretch;      
+}
+
+
+.cards-container .card {
+  flex: 1;
+}
